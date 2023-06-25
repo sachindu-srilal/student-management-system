@@ -16,7 +16,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class AppInnitializer extends Application {
+public class AppInitializer extends Application {
 
     public static void main(String[] args) {
         Runtime.getRuntime().addShutdownHook(new Thread(()->{

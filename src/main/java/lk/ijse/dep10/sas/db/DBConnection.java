@@ -25,7 +25,7 @@ public class DBConnection {
             String username = properties.getProperty("mysql.username", "root");
             String password = properties.getProperty("mysql.password", "mysql");
 
-            String url ="jdbc:mysql://"+host+":"+port+"/"+database+"?createDatabaseIfNotExist=true"; //&allowMultiQueries=true
+            String url ="jdbc:mysql://"+host+":"+port+"/"+database+"?createDatabaseIfNotExist=true&allowMultiQueries=true";
             connection = DriverManager.getConnection(url, username, password);
 
         } catch (Exception e) {
