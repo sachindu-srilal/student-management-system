@@ -21,7 +21,7 @@
                 <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="103.0" text="Student ID :" />
                 <TextField fx:id="txtId" alignment="CENTER" editable="false" prefHeight="24.0" prefWidth="128.0" promptText="Auto Generated ID" />
                 <Label text="Student Name :" />
-                <TextField fx:id="txtName" alignment="CENTER" prefHeight="24.0" prefWidth="213.0" promptText="Thilina Ranga" />
+                <TextField fx:id="txtName" alignment="CENTER" prefHeight="24.0" prefWidth="213.0" promptText="Sachindu srilal" />
             </children>
         </VBox>
         <Pane layoutX="29.0" layoutY="277.0" prefHeight="238.0" prefWidth="240.0" style="-fx-border-color: grey;">
